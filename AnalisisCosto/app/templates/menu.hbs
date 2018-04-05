@@ -1,0 +1,15 @@
+<ul id="sideMenu"  class="side-nav fixed">
+    <li><div class="user-view">
+      <div class="background grey darken-3">
+        <img src="">
+      </div>
+      <a href="#!user"><img class="circle grey darken-1"></a>
+      <a href="#!name"><span class="white-text name">Duverney Ortiz</span></a>
+      <a href="#!email"><span class="white-text email">duverneyortiz@hotmail.com <i class="material-icons white-text right">arrow_drop_down</i></span></a>
+     
+    </div></li>
+   	
+   	{{#each menuItems}}
+    <li class="item"><a href="#!" id="{{active}}" onclick="Activar({{active}},'{{item}}')">{{item}}</a></li>    
+    {{/each}}
+</ul>

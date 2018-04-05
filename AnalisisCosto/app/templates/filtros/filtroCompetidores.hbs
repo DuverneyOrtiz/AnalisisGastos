@@ -1,0 +1,39 @@
+<div class="row">
+	<div class="col s12">
+		<h5>Competidores Agregados</h5>
+	</div>
+</div>
+{{#each itemEmpresa}}
+	<div class="row">
+		<div class="col s12 m6 l6">
+			<div class="row">
+				<div class="col s4 m4">
+					<b>{{Empresa}}</b>
+					<p class="truncate">{{url}}</p>
+				</div>
+				<div class="col s8 m8">
+					<div class="row">
+						<div class="col s6 m6 l6">
+							<b>Ventas Anuales</b>
+							<div class="row">
+								<div class="s12">
+									${{VtAnual}}<i class="material-icons">arrow_upward</i>
+								</div>
+							</div>
+						</div>
+						<div class="col s6 m6 l6">
+							<b>Costos Anuales</b>
+							<div class="row">
+								<div class="s12">
+									${{CosAnual}}<i class="material-icons">arrow_downward</i>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	{{/each}}
+</div>
+

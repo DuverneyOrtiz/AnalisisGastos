@@ -1,0 +1,64 @@
+{{#each variable.Costo}}
+
+<div class="col s12">
+	<p class="PTitulo">Punto de Equilibrio {{NProducto}}</p>
+</div>
+
+<div class="col s12 m12 l6">
+	<table class="bordered responsive-table FontTable" >
+		<thead>
+			<th colspan="2">COSTES DE PRODUCCIÓN</th>
+
+		</thead>
+
+		<tbody>
+
+			<tr>
+				<th>PRECIO DE VENTA UNITARIO</th>
+				<th>{{PVU}}</th>
+			</tr>
+			<tr>
+				<th>UNIDADES VENDIDAS</th>
+				<th>{{UV}}</th>
+			</tr>
+			<tr>
+				<th>INGRESO TOTAL</th>
+				<th>{{IT}}</th>
+			</tr>
+			<tr>
+				<th>COSTO FIJO TOTAL + LOGISTICOS</th>
+				<th>{{CFT}}</th>
+			</tr>
+			<tr>
+				<th>COSTO VARIABLE TOTAL</th>
+				<th>{{CVT}}</th>
+			</tr>
+			<tr>
+				<th>COSTO VARIABLE UNITARIO</th>
+				<th>{{CVU}}</th>
+			</tr>
+			<tr>
+				<th>CANTIDAD DE EQUILIBRIO</th>
+				<th>{{CQ}}</th>
+			</tr>
+
+			<tr>
+				<th>UM EQUILIBRIO</th>
+				<th>{{UM}}</th>
+			</tr>
+		</tbody>
+	</table>					
+</div>
+
+
+<div class="col s12 m12 l6">
+
+	<div class="card">
+		<div class="card-image ">
+			<img src="{{SRC}}">
+		</div>
+	</div>
+	
+</div>
+
+{{/each}}

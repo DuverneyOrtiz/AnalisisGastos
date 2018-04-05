@@ -1,0 +1,51 @@
+<div class="row">
+	{{#ifCond opcBody.InventB "1"}}
+		<div class="col s12 m12 l3">
+			<p>Costo Fijos</p>
+			<div class="tableCosto"></div>
+		</div>
+		
+		<div class="col s12 m12 l1"></div>
+
+		<div class="col s12 m12 l3">
+			<p>Costo Variables</p>
+			<div class="tableCosto"></div>
+		</div>
+
+		<div class="col s12 m12 l1"></div>
+
+		<div class="col s12 m12 l3">
+			<p>Costo Logisticos</p>
+			<div class="tableCosto"></div>
+		</div>
+	{{/ifCond}}
+
+
+
+	{{#ifCond opcBody.InventB "3"}}
+		
+		<div class="col s12 m12 l12">
+			<div class="graficaM row"></div>
+		</div>
+
+		<hr>
+
+		<div class="col s12 m12 l12">
+			<div class="graficaM row"></div>
+		</div>
+
+		<hr>
+
+		<div class="col s12 m12 l12">
+			<div class="graficaM row"></div>
+		</div>
+
+		<hr>	
+
+		<div class="col s12 m12 l12">
+			<div class="graficaM row"></div>
+		</div>	
+		
+	{{/ifCond}}
+
+</div>

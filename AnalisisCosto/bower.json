@@ -1,0 +1,9 @@
+{
+  "name": "plataformaanalisis",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "materialize": "^0.100.2",
+    "handlebars": "^4.0.11"
+  }
+}

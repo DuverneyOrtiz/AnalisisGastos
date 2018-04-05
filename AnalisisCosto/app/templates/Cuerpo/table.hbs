@@ -1,0 +1,21 @@
+<table class="bordered responsive-table" style="margin-bottom: 10px;">
+	<thead>				
+		<th>Descripción</th>
+		<th>Costo</th>					
+	</thead>
+	<tbody>
+	{{#each Variable.Fijo}}
+		<tr>						
+			<td>{{Item}}</td>
+			<td>{{Costo}}</td>
+												
+		</tr>
+	{{/each}}
+
+	<tr>
+		<td style="font-size: 18px;">Total Costo</td>
+		<td >{{Sum}}</td>		
+	</tr>
+
+	</tbody>
+</table>
